@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Niel Essien — Project Manager</title>
+<meta name="description" content="Project Manager — end-to-end delivery across cross-functional teams. Portfolio of three delivered projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #F7F3EC; color: #1A1613; font-family: 'Manrope', sans-serif; -webkit-font-smoothing: antialiased; }
+  a { color: #B14A24; text-decoration: none; }
+  a:hover { color: #8E3A1B; }
+  img { display: block; max-width: 100%; }
+  ::selection { background: #B14A24; color: #F7F3EC; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+  @media (max-width: 1024px) {
+    .nav-links { display: none !important; }
+    .hero-grid { grid-template-columns: 1fr !important; gap: 40px !important; }
+    .contact-grid { grid-template-columns: 1fr !important; gap: 40px !important; }
+    .philosophy-grid { grid-template-columns: 1fr 1fr !important; }
+    .story-grid { grid-template-columns: 1fr !important; gap: 20px !important; }
+  }
+  @media (max-width: 720px) {
+    .project-detail-grid { grid-template-columns: 1fr !important; gap: 20px !important; }
+    .project-gallery-grid { grid-template-columns: repeat(2,1fr) !important; }
+    .impact-grid { grid-template-columns: repeat(2,1fr) !important; }
+    .testimonials-grid { grid-template-columns: 1fr !important; }
+    .philosophy-grid { grid-template-columns: 1fr !important; }
+    .hero-metrics { grid-template-columns: repeat(2,auto) !important; gap: 22px !important; }
+    section { padding-left: 24px !important; padding-right: 24px !important; }
+    nav { padding-left: 24px !important; padding-right: 24px !important; }
+    footer { padding-left: 24px !important; padding-right: 24px !important; flex-direction: column; gap: 6px; }
+    h1 { font-size: 34px !important; }
+    h2 { font-size: 26px !important; }
+    .story-h2 { font-size: 28px !important; }
+  }
+</style>
+</head>
+<body>
+<div style="position:relative;background:#F7F3EC;overflow:hidden">
+
+  <nav style="position:sticky;top:0;z-index:40;display:flex;align-items:center;justify-content:space-between;padding:18px 56px;background:rgba(247,243,236,0.86);backdrop-filter:blur(10px);border-bottom:1px solid rgba(26,22,19,0.08)">
+    <a href="#hero" style="font:600 16px/1 'Fraunces',serif;color:#1A1613;letter-spacing:0.01em">Niel Essien</a>
+    <div class="nav-links" style="display:flex;gap:32px">
+      <a href="#story" style="font:500 12px 'Manrope',sans-serif;color:#1A1613;letter-spacing:0.02em">Story</a>
+      <a href="#philosophy" style="font:500 12px 'Manrope',sans-serif;color:#1A1613;letter-spacing:0.02em">Philosophy</a>
+      <a href="#expertise" style="font:500 12px 'Manrope',sans-serif;color:#1A1613;letter-spacing:0.02em">Expertise</a>
+      <a href="#projects" style="font:500 12px 'Manrope',sans-serif;color:#1A1613;letter-spacing:0.02em">Projects</a>
+      <a href="#experience" style="font:500 12px 'Manrope',sans-serif;color:#1A1613;letter-spacing:0.02em">Experience</a>
+      <a href="#contact" style="font:500 12px 'Manrope',sans-serif;color:#1A1613;letter-spacing:0.02em">Contact</a>
+    </div>
+    <a href="https://drive.google.com/file/d/1j_Bhy4xOwaIaiYl57_e9pN3H2s0ckFsG/view?usp=sharing" target="_blank" rel="noopener" style="font:600 11px 'Manrope',sans-serif;letter-spacing:0.03em;text-transform:uppercase;color:#F7F3EC;background:#1A1613;padding:10px 20px;border-radius:2px">Resume</a>
+  </nav>
+
+  <section id="hero" class="hero-grid" style="max-width:1280px;margin:0 auto;padding:72px 56px 88px;display:grid;grid-template-columns:1.05fr 0.85fr;gap:56px;align-items:center">
+    <div style="animation:fadeUp 0.9s ease both">
+      <div style="font:600 12px/1 'Manrope',sans-serif;letter-spacing:0.2em;text-transform:uppercase;color:#B14A24;margin-bottom:16px">Project Manager — End-to-End Delivery</div>
+      <h1 style="font:500 46px/1.1 'Fraunces',serif;margin:0 0 18px;letter-spacing:-0.01em">I turn complex ideas into successful digital products.</h1>
+      <p style="font:400 15px/1.65 'Manrope',sans-serif;color:rgba(26,22,19,0.72);max-width:480px;margin:0 0 28px">I own end-to-end delivery across cross-functional teams — tracking timelines, flagging blockers early, and keeping stakeholders accountable to outcomes.</p>
+      <div style="display:flex;gap:14px;margin-bottom:44px;flex-wrap:wrap">
+        <a href="#projects" style="font:600 12px 'Manrope',sans-serif;letter-spacing:0.02em;color:#F7F3EC;background:#1A1613;padding:14px 24px;border-radius:2px;display:inline-block">View My Projects</a>
+        <a href="https://drive.google.com/file/d/1j_Bhy4xOwaIaiYl57_e9pN3H2s0ckFsG/view?usp=sharing" target="_blank" rel="noopener" style="font:600 12px 'Manrope',sans-serif;letter-spacing:0.02em;color:#1A1613;background:transparent;border:1px solid rgba(26,22,19,0.28);padding:13px 24px;border-radius:2px;display:inline-block">Download Resume</a>
+        <a href="https://calendly.com/nieldelivers/30min" target="_blank" rel="noopener" style="font:600 12px 'Manrope',sans-serif;letter-spacing:0.02em;color:#B14A24;padding:14px 4px;display:inline-block">Book a Call →</a>
+      </div>
+      <div class="hero-metrics" style="display:grid;grid-template-columns:repeat(4,auto);gap:32px">
+        <div><div style="font:500 26px/1 'Fraunces',serif">£120K</div><div style="font:500 11px/1.4 'Manrope',sans-serif;color:rgba(26,22,19,0.55);margin-top:6px;max-width:100px">Platform Delivered</div></div>
+        <div><div style="font:500 26px/1 'Fraunces',serif">90%+</div><div style="font:500 11px/1.4 'Manrope',sans-serif;color:rgba(26,22,19,0.55);margin-top:6px;max-width:100px">Stakeholder Satisfaction</div></div>
+        <div><div style="font:500 26px/1 'Fraunces',serif">40%</div><div style="font:500 11px/1.4 'Manrope',sans-serif;color:rgba(26,22,19,0.55);margin-top:6px;max-width:100px">Fewer Missed Deadlines</div></div>
+        <div><div style="font:500 26px/1 'Fraunces',serif">25%</div><div style="font:500 11px/1.4 'Manrope',sans-serif;color:rgba(26,22,19,0.55);margin-top:6px;max-width:100px">Faster Delivery</div></div>
+      </div>
+    </div>
+    <div style="position:relative;animation:fadeUp 1.1s ease both">
+      <div style="position:absolute;inset:-14px;border:1px solid rgba(26,22,19,0.14);border-radius:2px"></div>
+      <img src="niel-portrait.jpg" alt="Niel Essien" style="width:100%;height:440px;object-fit:cover;border-radius:2px">
+    </div>
+  </section>
+
+  <section id="story" style="max-width:1040px;margin:0 auto;padding:48px 56px 56px">
+    <div style="font:600 13px/1 'Manrope',sans-serif;letter-spacing:0.2em;text-transform:uppercase;color:#B14A24;margin-bottom:14px">My Story</div>
+    <h2 class="story-h2" style="font:500 36px/1.2 'Fraunces',serif;margin:0 0 20px;max-width:720px">The Engineer Who Learned to Watch the Gaps</h2>
+    <div class="story-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:40px;font:400 14px/1.6 'Manrope',sans-serif;color:rgba(26,22,19,0.75)">
+      <div style="display:flex;flex-direction:column;gap:16px">
+        <p style="margin:0">I didn't start out wanting to manage projects. I started in Computer Engineering, learning how systems are built, piece by piece, line by line. But the real lesson wasn't in the code. It was in watching what happens when nobody owns the space between the parts. A backend team assumes the frontend team knows something. A deadline moves and three people find out three different ways. Small cracks, left alone, become the reason a whole project falls apart.</p>
+        <p style="margin:0">That's what pulled me toward project management. Not the title, the pattern.</p>
+        <p style="margin:0">The moment I knew this was the work I wanted to do was watching a project drift, slowly, quietly, because no one was tracking the small things. Nobody was lying or slacking off. There just wasn't a system catching the details before they became problems. I stepped in, built that system, and watched the chaos turn into something people could actually rely on. That feeling, structure replacing panic, is still the part of this job I chase every time.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:16px">
+        <p style="margin:0;font:500 17px/1.4 'Fraunces',serif;color:#1A1613">"Delivering the software" stopped being the finish line. It was never really the point.</p>
+        <p style="margin:0">Somewhere in those early projects, my definition of success changed. The point was always whether the business problem got solved, whether the thing we built actually moved the needle for the people who needed it to.</p>
+        <p style="margin:0">That shift is the lens I bring into every engagement now. I track timelines before they slip, not after. I flag blockers the moment I see them, not when they've already cost someone a week. I document as I go, so nothing lives only in my head. And I measure success the way the business feels it, not just what's checked off a list.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="philosophy" style="background:#1A1613;color:#F7F3EC;padding:64px 56px">
+    <div style="max-width:1120px;margin:0 auto">
+      <div style="font:600 11px/1 'Manrope',sans-serif;letter-spacing:0.2em;text-transform:uppercase;color:#D9895F;margin-bottom:12px">Project Leadership Philosophy</div>
+      <h2 style="font:500 28px/1.2 'Fraunces',serif;margin:0 0 32px;max-width:640px">Six beliefs that shape how I run a project.</h2>
+      <div class="philosophy-grid" id="philosophy-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(247,243,236,0.14);border:1px solid rgba(247,243,236,0.14)"></div>
+    </div>
+  </section>
+
+  <section id="expertise" style="max-width:1120px;margin:0 auto;padding:64px 56px">
+    <div style="font:600 11px/1 'Manrope',sans-serif;letter-spacing:0.2em;text-transform:uppercase;color:#B14A24;margin-bottom:12px">Core Expertise</div>
+    <h2 style="font:500 28px/1.2 'Fraunces',serif;margin:0 0 32px;max-width:640px">The competencies I lean on most.</h2>
+    <div id="expertise-list"></div>
+    <div style="border-top:1px solid rgba(26,22,19,0.14)"></div>
+  </section>
+
+  <section id="projects" style="background:#EFE9DE;padding:64px 0">
+    <div style="max-width:1200px;margin:0 auto;padding:0 56px">
+      <div style="font:600 11px/1 'Manrope',sans-serif;letter-spacing:0.2em;text-transform:uppercase;color:#B14A24;margin-bottom:12px">Featured Projects</div>
+      <h2 style="font:500 28px/1.2 'Fraunces',serif;margin:0 0 32px;max-width:640px">Three projects. Three business problems solved.</h2>
+    </div>
+    <div id="projects-list" style="max-width:1200px;margin:0 auto;padding:0 56px;display:flex;flex-direction:column;gap:20px"></div>
+  </section>
+
+  <section style="max-width:1120px;margin:0 auto;padding:64px 56px">
+    <div style="font:600 11px/1 'Manrope',sans-serif;letter-spacing:0.2em;text-transform:uppercase;color:#B14A24;margin-bottom:12px">Project Delivery Framework</div>
+    <h2 style="font:500 28px/1.2 'Fraunces',serif;margin:0 0 40px;max-width:640px">How I move a project from idea to impact.</h2>
+    <div style="position:relative;padding-left:40px">
+      <div style="position:absolute;left:5px;top:6px;bottom:6px;width:1px;background:rgba(26,22,19,0.16)"></div>
+      <div id="framework-list"></div>
+    </div>
+  </section>
+
+  <section id="experience" style="background:#1A1613;color:#F7F3EC;padding:64px 56px">
+    <div style="max-width:1000px;margin:0 auto">
+      <div style="font:600 11px/1 'Manrope',sans-serif;letter-spacing:0.2em;text-transform:uppercase;color:#D9895F;margin-bottom:12px">Professional Experience</div>
+      <h2 style="font:500 28px/1.2 'Fraunces',serif;margin:0 0 32px;max-width:640px">Where I've led delivery.</h2>
+      <div id="experience-list" style="display:flex;flex-direction:column"></div>
+    </div>
+  </section>
+
+  <section id="impact-section" style="max-width:1200px;margin:0 auto;padding:64px 56px">
+    <div style="font:600 11px/1 'Manrope',sans-serif;letter-spacing:0.2em;text-transform:uppercase;color:#B14A24;margin-bottom:12px">Project Impact</div>
+    <h2 style="font:500 28px/1.2 'Fraunces',serif;margin:0 0 32px;max-width:640px">Numbers behind the delivery.</h2>
+    <div class="impact-grid" id="impact-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(26,22,19,0.14);border:1px solid rgba(26,22,19,0.14)"></div>
+  </section>
+
+  <section style="background:#EFE9DE;padding:64px 56px">
+    <div style="max-width:1200px;margin:0 auto">
+      <div style="font:600 11px/1 'Manrope',sans-serif;letter-spacing:0.2em;text-transform:uppercase;color:#B14A24;margin-bottom:12px">Testimonials</div>
+      <h2 style="font:500 28px/1.2 'Fraunces',serif;margin:0 0 32px;max-width:640px">What it's like to work with me.</h2>
+      <div class="testimonials-grid" id="testimonials-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-grid" style="max-width:1120px;margin:0 auto;padding:72px 56px;display:grid;grid-template-columns:1fr 1fr;gap:56px">
+    <div>
+      <div style="font:600 11px/1 'Manrope',sans-serif;letter-spacing:0.2em;text-transform:uppercase;color:#B14A24;margin-bottom:12px">Contact</div>
+      <h2 style="font:500 30px/1.15 'Fraunces',serif;margin:0 0 22px">Let's build something great together.</h2>
+      <div style="display:flex;flex-direction:column;gap:14px;margin-bottom:28px">
+        <a href="mailto:Nieldelivers@gmail.com" style="font:500 14px 'Manrope',sans-serif;color:#1A1613">Nieldelivers@gmail.com</a>
+        <a href="https://github.com/TheprofNiel" target="_blank" rel="noopener" style="font:500 14px 'Manrope',sans-serif;color:#1A1613">GitHub — /TheprofNiel</a>
+        <a href="https://x.com/theprof_Niel" target="_blank" rel="noopener" style="font:500 14px 'Manrope',sans-serif;color:#1A1613">X — @theprof_Niel</a>
+        <div style="font:500 14px 'Manrope',sans-serif;color:rgba(26,22,19,0.6)">United Kingdom · Remote-friendly</div>
+      </div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap">
+        <a href="https://drive.google.com/file/d/1j_Bhy4xOwaIaiYl57_e9pN3H2s0ckFsG/view?usp=sharing" target="_blank" rel="noopener" style="font:600 12px 'Manrope',sans-serif;letter-spacing:0.02em;color:#F7F3EC;background:#1A1613;padding:14px 24px;border-radius:2px;display:inline-block">Download Resume</a>
+        <a href="https://calendly.com/nieldelivers/30min" target="_blank" rel="noopener" style="font:600 12px 'Manrope',sans-serif;letter-spacing:0.02em;color:#1A1613;background:transparent;border:1px solid rgba(26,22,19,0.28);padding:13px 24px;border-radius:2px;display:inline-block">Book a Call</a>
+      </div>
+    </div>
+    <form action="https://formsubmit.co/Nieldelivers@gmail.com" method="POST" style="display:flex;flex-direction:column;gap:18px">
+      <input name="name" required placeholder="Name" style="font:400 14px 'Manrope',sans-serif;padding:14px 0;background:none;border:none;border-bottom:1px solid rgba(26,22,19,0.24);outline:none;color:#1A1613">
+      <input name="email" type="email" required placeholder="Email" style="font:400 14px 'Manrope',sans-serif;padding:14px 0;background:none;border:none;border-bottom:1px solid rgba(26,22,19,0.24);outline:none;color:#1A1613">
+      <textarea name="message" rows="4" required placeholder="Tell me about your project" style="font:400 14px 'Manrope',sans-serif;padding:14px 0;background:none;border:none;border-bottom:1px solid rgba(26,22,19,0.24);outline:none;resize:none;color:#1A1613"></textarea>
+      <button type="submit" style="margin-top:10px;align-self:flex-start;font:600 12px 'Manrope',sans-serif;letter-spacing:0.02em;color:#F7F3EC;background:#B14A24;padding:14px 24px;border-radius:2px;border:none;cursor:pointer">Send Message</button>
+    </form>
+  </section>
+
+  <footer style="border-top:1px solid rgba(26,22,19,0.12);padding:24px 56px;display:flex;justify-content:space-between;font:500 12px 'Manrope',sans-serif;color:rgba(26,22,19,0.5)">
+    <div>© 2026 Niel Essien</div>
+    <div>Project Manager · End-to-End Delivery</div>
+  </footer>
+</div>
+
+<script>
+var esc = function (s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); };
+
+var philosophy = [
+  { num: '01', title: 'Trust drives success.', body: 'Gantt charts don\u2019t ship software — aligned people do. I invest early in what each stakeholder needs and in the team knowing I have their back.' },
+  { num: '02', title: 'Planning prevents surprises.', body: 'A plan is a shared mental model, not a document. Mapping dependencies up front means less firefighting later.' },
+  { num: '03', title: 'Every risk needs a mitigation.', body: 'Risk logs are living tools. Naming a risk early with an owner turns a crisis into a line item.' },
+  { num: '04', title: 'Communication is the foundation.', body: 'Most delivery failures are communication failures. Clear status updates and plain language prevent most of them.' },
+  { num: '05', title: 'Tech must create business value.', body: 'A well-built feature that doesn\u2019t move a metric is a distraction. Every sprint ties back to an outcome.' },
+  { num: '06', title: 'Build confidence, not confusion.', body: 'My job is making complexity feel manageable to everyone at the table — executives, engineers, clients alike.' }
+];
+
+var expertise = [
+  { title: 'Project & Delivery Management', body: 'Owning end-to-end delivery across cross-functional teams — tracking timelines, flagging blockers early, and keeping every workstream accountable to the outcome it was scoped for.', tags: ['Agile & Scrum Delivery', 'Project Coordination', 'Requirements Gathering'] },
+  { title: 'Stakeholder & Risk Management', body: 'Closing the communication gap between technical teams and leadership, and proactively surfacing risk before it becomes a missed deadline.', tags: ['Stakeholder Management', 'Risk Management', 'Cross-functional Team Leadership'] },
+  { title: 'Process & Documentation', body: 'Turning fragmented, ad-hoc operations into structured, scalable systems — documenting processes end-to-end so delivery doesn\u2019t depend on any one person\u2019s memory.', tags: ['Process Improvement', 'Documentation', 'Operational Systems'] },
+  { title: 'Tools & Platforms', body: 'Fluent across the platforms that keep distributed teams aligned and visible on progress.', tags: ['Jira', 'Trello', 'Asana', 'Microsoft Teams', 'Google Workspace'] },
+  { title: 'Communication & Leadership', body: 'Leading with clarity under pressure — translating complex, moving-parts operations into plain language stakeholders can act on.', tags: ['Communication', 'Leadership', 'Team Collaboration'] },
+  { title: 'Organization & Execution', body: 'A bias for structure: clear timelines, clear ownership, and close attention to the details that quietly sink a delivery if left unchecked.', tags: ['Organization', 'Time Management', 'Attention to Detail'] }
+];
+
+var projects = [
+  {
+    name: 'Stanford Institute 004 — Web Application', industry: 'EdTech', timeline: 'Aug 2025 – Nov 2025 (12 weeks)', role: 'Project Manager (1 of 5-PM team)', team: 'PMs, BA, developer, tester', methodology: 'Agile',
+    aim: 'Launch a fully virtual £120K learning platform — with student and admin portals — replacing an in-person-only model within 12 weeks.',
+    methodologyText: 'As one of five PMs, ran Agile ceremonies and a full requirements-to-UAT lifecycle for the account, transactions, notifications, and contact-us features, tracked in Trello, Azure Boards, and Microsoft Project.',
+    results: 'All deliverables from Week 0–12 landed 100% complete. UAT passed, documentation submitted, project closed Green RAG throughout.',
+    metrics: ['100% deliverables complete', 'Green RAG, week 12', '£120K platform closed on scope'],
+    myRole: 'Owned my feature group end-to-end — stakeholder register, risk log, sprint reviews — and kept the project Green RAG through a UAT delay by rescheduling a fixed test window.',
+    tools: ['Trello', 'Azure Boards', 'Microsoft Project', 'Basecamp'],
+    docs: [
+      { src: 'stanford-01.jpeg', caption: 'Project Charter' },
+      { src: 'stanford-02.jpeg', caption: 'Communication Management Plan' },
+      { src: 'stanford-03.jpeg', caption: 'Gantt Chart' },
+      { src: 'stanford-04.jpeg', caption: 'Trello Board' },
+      { src: 'stanford-05.jpeg', caption: 'RAID Log' },
+      { src: 'stanford-06.jpeg', caption: 'Work Breakdown Structure' }
+    ]
+  },
+  {
+    name: 'Apex Bank — Corporate Compliance Training Rollout', industry: 'Banking / EdTech', timeline: '12 weeks', role: 'Project Manager', team: '7-member team + L&D + external content developer', methodology: 'Agile',
+    aim: 'Get all 2,000 employees across 45 branches through mandatory AML, data privacy, and cybersecurity training within a fixed 12-week regulatory window, at an 80%+ assessment pass mark — while upgrading off a legacy LMS that barely functioned, for tellers, managers, and executives who each need a different version.',
+    methodologyText: 'Ran LMS migration and tiered content development (teller/manager/executive) in parallel with an external content developer, working around shared branch terminals and 15-minute-max executive modules, built to SCORM/xAPI spec with scenario-based questions.',
+    results: 'All three modules shipped in teller, manager, and executive versions on schedule, backed by an escalation protocol keeping every branch\u2019s completion rate visible weekly.',
+    metrics: ['2,000 employees, 45 branches', '80%+ pass mark target', '12-week regulatory deadline'],
+    myRole: 'Designed a 4-tier escalation protocol tied to completion data and an ROI measurement plan, managed the shared-terminal scheduling constraint at branch level, and delivered all three modules on schedule despite a full platform migration mid-project.',
+    tools: ['LMS (SCORM/xAPI)', 'Escalation Protocol', 'ROI Measurement Plan'],
+    docs: [
+      { src: 'apex-01.jpeg', caption: 'Project Charter' },
+      { src: 'apex-02.jpeg', caption: 'Communication Plan' },
+      { src: 'apex-03.jpeg', caption: 'Trello Board' },
+      { src: 'apex-04.jpeg', caption: 'RAID Log' },
+      { src: 'apex-05.jpeg', caption: 'Gantt Chart' },
+      { src: 'apex-06.jpeg', caption: 'Work Breakdown Structure' }
+    ]
+  },
+  {
+    name: 'GrowthLab Consulting — HubSpot Marketing Automation', industry: 'Marketing & Creative Services', timeline: '10 weeks', role: 'Project Manager', team: '5-member team + IT support', methodology: 'Agile',
+    aim: 'Replace a fully manual marketing process — leads hand-entered into a Google Sheet, picked up with no scoring, Mailchimp sends with no personalization, no visibility into which channel drove revenue — with HubSpot fully operational in 10 weeks: automated lead capture, lead scoring, nurture sequences, CRM integration, and attribution dashboards.',
+    methodologyText: 'Sequenced by dependency across a CMO, a 3-person marketing team with zero prior HubSpot experience, sales, and IT: portal config and data migration first, then automation and CRM integration, then role-based HubSpot training for marketing and sales.',
+    results: 'HubSpot went live on schedule with automated capture, three nurture workflows, full CRM lead-flow integration, and an executive attribution dashboard.',
+    metrics: ['$50K budget, 10-week delivery', '100% critical records migrated', '3 nurture workflows live'],
+    myRole: 'Set hard migration success criteria before automation, defined explicit lead-handoff criteria for sales, ran a structured training plan to close the team\u2019s HubSpot skill gap, and delivered a fully live platform on a $50K budget despite inconsistent legacy lead data.',
+    tools: ['HubSpot', 'Google Sheets (migration source)', 'CRM Integration'],
+    docs: [
+      { src: 'growthlab-01.jpeg', caption: 'Communication Management Plan' },
+      { src: 'growthlab-02.jpeg', caption: 'Gantt Chart' },
+      { src: 'growthlab-03.jpeg', caption: 'Project Charter' },
+      { src: 'growthlab-04.jpeg', caption: 'RAID Log' },
+      { src: 'growthlab-05.jpeg', caption: 'Trello Board' },
+      { src: 'growthlab-06.jpeg', caption: 'Work Breakdown Structure' }
+    ]
+  }
+];
+
+var framework = ['Discovery', 'Business Analysis', 'Requirements Gathering', 'Planning', 'Risk Assessment', 'Sprint Planning', 'Execution', 'Monitoring', 'Quality Assurance', 'Deployment', 'Hypercare', 'Project Closure', 'Lessons Learned'];
+
+var experience = [
+  { role: 'Lead Project Manager', company: 'Stanford Institute, UK', duration: 'Aug 2025 — Nov 2025',
+    summary: 'Owned end-to-end delivery of a £120,000 web application from kickoff to launch, keeping cross-functional teams aligned and stakeholders informed at every stage.',
+    achievements: ['Tracked timelines and flagged blockers early, boosting stakeholder satisfaction to 90%+ with zero major delivery disruptions.', 'Kept cross-functional teams aligned through structured Agile ceremonies, eliminating delivery inefficiencies.', 'Documented processes end-to-end and implemented tracking frameworks that enabled seamless multi-feature delivery.'],
+    tools: ['Agile', 'Jira', 'Microsoft Teams'] },
+  { role: 'Project Manager', company: 'Almond Careers, UK', duration: 'April 2025 — Nov 2025',
+    summary: 'Identified process gaps across programme delivery and replaced them with standardised workflows, while facilitating Agile ceremonies across the team.',
+    achievements: ['Implemented standardised workflows that reduced operational delays by 30%.', 'Facilitated daily stand-ups, sprint planning, and retrospectives, improving team turnaround time by 25%.', 'Rolled out Trello-based tracking, increasing visibility and cutting missed deadlines by 40%.'],
+    tools: ['Trello', 'Agile Ceremonies', 'Stakeholder Reporting'] }
+];
+
+var impact = [
+  { value: 120, suffix: 'K', label: 'Platform Delivered, Zero Major Disruptions' },
+  { value: 90, suffix: '%+', label: 'Stakeholder Satisfaction' },
+  { value: 40, suffix: '%', label: 'Fewer Missed Deadlines' },
+  { value: 30, suffix: '%', label: 'Fewer Operational Delays' },
+  { value: 25, suffix: '%', label: 'Faster Cross-team Delivery' },
+  { value: 20, suffix: '%', label: 'Higher Stakeholder Satisfaction Scores' },
+  { value: 20, suffix: '%', label: 'Better Completion Rates' },
+  { value: 2, suffix: '+', label: 'Years Delivering End-to-End' }
+];
+
+var testimonials = [
+  { quote: 'Niel consistently demonstrated strong organizational skills, professionalism, and a structured approach to project delivery. He effectively coordinated cross-functional teams, maintained clear communication with stakeholders, and ensured project activities remained aligned with agreed timelines and objectives.', name: 'Emmanuella Chuks', role: 'Head of Human Resources, 7ven Oaks Limited' }
+];
+
+document.getElementById('philosophy-grid').innerHTML = philosophy.map(function (p) {
+  return '<div style="background:#1A1613;padding:22px 20px">'
+    + '<div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">'
+    + '<span style="font:400 13px/1 \'Fraunces\',serif;color:#D9895F">' + esc(p.num) + '</span>'
+    + '<span style="font:500 15px/1.3 \'Fraunces\',serif">' + esc(p.title) + '</span></div>'
+    + '<p style="font:400 12.5px/1.55 \'Manrope\',sans-serif;color:rgba(247,243,236,0.65);margin:0">' + esc(p.body) + '</p></div>';
+}).join('');
+
+var tagPill = function (t, dark) {
+  var border = dark ? 'rgba(247,243,236,0.22)' : 'rgba(26,22,19,0.2)';
+  var color = dark ? 'rgba(247,243,236,0.7)' : 'rgba(26,22,19,0.75)';
+  return '<span style="font:500 11px \'Manrope\',sans-serif;padding:6px 12px;border:1px solid ' + border + ';border-radius:100px;color:' + color + '">' + esc(t) + '</span>';
+};
+
+document.getElementById('expertise-list').innerHTML = expertise.map(function (e, i) {
+  return '<div style="border-top:1px solid rgba(26,22,19,0.14)">'
+    + '<button type="button" data-acc="' + i + '" style="width:100%;text-align:left;background:none;border:none;cursor:pointer;padding:20px 0;display:flex;gap:24px;align-items:baseline;color:inherit;font-family:inherit">'
+    + '<span style="font:500 17px/1.3 \'Fraunces\',serif;flex:1">' + esc(e.title) + '</span>'
+    + '<span data-icon="' + i + '" style="font:300 18px/1 \'Manrope\',sans-serif;color:#B14A24">+</span></button>'
+    + '<div data-panel="' + i + '" style="overflow:hidden;max-height:0;transition:max-height 0.5s ease">'
+    + '<p style="font:400 14px/1.65 \'Manrope\',sans-serif;color:rgba(26,22,19,0.72);max-width:720px;margin:0 0 16px">' + esc(e.body) + '</p>'
+    + '<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px">' + e.tags.map(function (t) { return tagPill(t, false); }).join('') + '</div>'
+    + '</div></div>';
+}).join('');
+
+var openIdx = -1;
+var setAcc = function (i) {
+  expertise.forEach(function (_, j) {
+    var panel = document.querySelector('[data-panel="' + j + '"]');
+    var icon = document.querySelector('[data-icon="' + j + '"]');
+    var on = j === i;
+    panel.style.maxHeight = on ? panel.scrollHeight + 40 + 'px' : '0';
+    icon.textContent = on ? '\u2212' : '+';
+  });
+};
+document.getElementById('expertise-list').addEventListener('click', function (ev) {
+  var btn = ev.target.closest('[data-acc]');
+  if (!btn) return;
+  var i = parseInt(btn.getAttribute('data-acc'), 10);
+  openIdx = openIdx === i ? -1 : i;
+  setAcc(openIdx);
+});
+setAcc(0);
+openIdx = 0;
+
+document.getElementById('projects-list').innerHTML = projects.map(function (p) {
+  var meta = [['Timeline', p.timeline], ['Role', p.role], ['Team', p.team], ['Methodology', p.methodology]].map(function (m) {
+    return '<div><div style="font:600 9px \'Manrope\',sans-serif;letter-spacing:0.08em;text-transform:uppercase;color:rgba(26,22,19,0.45)">' + esc(m[0]) + '</div>'
+      + '<div style="font:500 13px \'Manrope\',sans-serif;margin-top:3px">' + esc(m[1]) + '</div></div>';
+  }).join('');
+  var block = function (label, text) {
+    return '<div><div style="font:600 10px \'Manrope\',sans-serif;letter-spacing:0.08em;text-transform:uppercase;color:#B14A24;margin-bottom:6px">' + label + '</div>'
+      + '<p style="font:400 13.5px/1.6 \'Manrope\',sans-serif;color:rgba(26,22,19,0.75);margin:0">' + esc(text) + '</p></div>';
+  };
+  var gallery = !p.docs.length ? '' : '<div><div style="font:600 10px \'Manrope\',sans-serif;letter-spacing:0.08em;text-transform:uppercase;color:rgba(26,22,19,0.45);margin:24px 0 12px">Project Artifacts</div>'
+    + '<div class="project-gallery-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px">'
+    + p.docs.map(function (d) {
+      return '<figure style="margin:0"><img src="' + esc(d.src) + '" alt="' + esc(d.caption) + '" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:contain;background:rgba(26,22,19,0.04);border:1px solid rgba(26,22,19,0.08)">'
+        + '<figcaption style="font:500 10px \'Manrope\',sans-serif;color:rgba(26,22,19,0.5);margin-top:6px">' + esc(d.caption) + '</figcaption></figure>';
+    }).join('') + '</div></div>';
+
+  return '<div style="background:#F7F3EC;border:1px solid rgba(26,22,19,0.12);border-radius:4px;padding:32px 36px">'
+    + '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap">'
+    + '<div><div style="font:500 11px \'Manrope\',sans-serif;letter-spacing:0.05em;text-transform:uppercase;color:#B14A24;margin-bottom:6px">' + esc(p.industry) + '</div>'
+    + '<h3 style="font:500 22px/1.25 \'Fraunces\',serif;margin:0">' + esc(p.name) + '</h3></div>'
+    + '<div style="display:flex;gap:22px;flex-wrap:wrap">' + meta + '</div></div>'
+    + '<div class="project-detail-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:24px;padding-top:22px;border-top:1px solid rgba(26,22,19,0.1)">'
+    + block('Project Aim &amp; Objective', p.aim) + block('Methodology &amp; Process', p.methodologyText)
+    + block('Results', p.results) + block('My Role', p.myRole) + '</div>'
+    + '<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:20px">' + p.metrics.map(function (m) {
+      return '<span style="font:600 11px \'Manrope\',sans-serif;padding:7px 12px;background:#1A1613;color:#F7F3EC;border-radius:100px">' + esc(m) + '</span>';
+    }).join('') + '</div>'
+    + '<div style="display:flex;flex-wrap:wrap;gap:7px;margin-top:14px">' + p.tools.map(function (t) { return tagPill(t, false); }).join('') + '</div>'
+    + gallery + '</div>';
+}).join('');
+
+document.getElementById('framework-list').innerHTML = framework.map(function (label, i) {
+  return '<div style="position:relative;padding-bottom:24px;display:flex;gap:22px;align-items:baseline">'
+    + '<div style="position:absolute;left:-40px;top:3px;width:9px;height:9px;border-radius:50%;background:#B14A24"></div>'
+    + '<div style="font:400 12px \'Fraunces\',serif;color:rgba(26,22,19,0.4);width:24px;flex:none">' + String(i + 1).padStart(2, '0') + '</div>'
+    + '<div style="font:500 15px \'Fraunces\',serif">' + esc(label) + '</div></div>';
+}).join('');
+
+document.getElementById('experience-list').innerHTML = experience.map(function (j) {
+  return '<div style="padding:28px 0;border-top:1px solid rgba(247,243,236,0.16)">'
+    + '<div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:10px;margin-bottom:12px">'
+    + '<h3 style="font:500 20px \'Fraunces\',serif;margin:0">' + esc(j.role) + '</h3>'
+    + '<div style="font:500 12px \'Manrope\',sans-serif;color:rgba(247,243,236,0.55)">' + esc(j.company) + ' · ' + esc(j.duration) + '</div></div>'
+    + '<p style="font:400 14px/1.6 \'Manrope\',sans-serif;color:rgba(247,243,236,0.72);max-width:760px;margin:0 0 14px">' + esc(j.summary) + '</p>'
+    + '<div style="display:flex;flex-direction:column;gap:8px;margin-bottom:18px">' + j.achievements.map(function (a) {
+      return '<div style="display:flex;gap:12px;font:400 13.5px/1.55 \'Manrope\',sans-serif;color:rgba(247,243,236,0.72);max-width:760px">'
+        + '<span style="color:#D9895F;flex:none">—</span><span>' + esc(a) + '</span></div>';
+    }).join('') + '</div>'
+    + '<div style="display:flex;flex-wrap:wrap;gap:7px">' + j.tools.map(function (t) { return tagPill(t, true); }).join('') + '</div></div>';
+}).join('');
+
+var impactGrid = document.getElementById('impact-grid');
+var renderImpact = function (progress) {
+  var ease = 1 - Math.pow(1 - progress, 3);
+  impactGrid.innerHTML = impact.map(function (m) {
+    return '<div style="background:#F7F3EC;padding:28px 22px">'
+      + '<div style="font:500 32px/1 \'Fraunces\',serif">' + Math.round(m.value * ease) + m.suffix + '</div>'
+      + '<div style="font:500 12px/1.4 \'Manrope\',sans-serif;color:rgba(26,22,19,0.55);margin-top:10px">' + esc(m.label) + '</div></div>';
+  }).join('');
+};
+renderImpact(0);
+
+var started = false;
+if ('IntersectionObserver' in window) {
+  var io = new IntersectionObserver(function (entries) {
+    if (!entries[0].isIntersecting || started) return;
+    started = true;
+    var t0 = performance.now();
+    var tick = function (now) {
+      var p = Math.min(1, (now - t0) / 1400);
+      renderImpact(p);
+      if (p < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  }, { threshold: 0.3 });
+  io.observe(document.getElementById('impact-section'));
+} else {
+  renderImpact(1);
+}
+
+document.getElementById('testimonials-grid').innerHTML = testimonials.map(function (t) {
+  return '<div style="background:#F7F3EC;border:1px solid rgba(26,22,19,0.12);border-radius:4px;padding:28px;display:flex;flex-direction:column;gap:16px;grid-column:span 2">'
+    + '<div style="font:400 28px/1 \'Fraunces\',serif;color:#B14A24">&ldquo;</div>'
+    + '<p style="font:400 14.5px/1.65 \'Manrope\',sans-serif;color:rgba(26,22,19,0.78);margin:0;flex:1">' + esc(t.quote) + '</p>'
+    + '<div style="border-top:1px solid rgba(26,22,19,0.1);padding-top:14px">'
+    + '<div style="font:600 13px \'Manrope\',sans-serif">' + esc(t.name) + '</div>'
+    + '<div style="font:400 12px \'Manrope\',sans-serif;color:rgba(26,22,19,0.5);margin-top:2px">' + esc(t.role) + '</div></div></div>';
+}).join('');
+</script>
+</body>
+</html>
